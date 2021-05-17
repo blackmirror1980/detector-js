@@ -66,8 +66,6 @@ export default class Detector extends FlagsClass {
     delete this._navigator;
     delete this._document;
     delete this._ua;
-
-    console.warn('DetectorJS initialized', this.toFlags());
   }
 
   //! Feature

@@ -132,6 +132,8 @@ export default class OS extends CssFlagsClass {
       'Sierra': /^10\.12(\.+\d)?$/i.test(version),
       'High Sierra': /^10\.13(\.+\d)?$/i.test(version),
       'Mojave': /^10\.14(\.+\d)?$/i.test(version),
+      'Catalina': /^10\.15(\.+\d)?$/i.test(version),
+      'Big Sur': /^11(\.+\d)?$/i.test(version),
     }, version);
   }
 
